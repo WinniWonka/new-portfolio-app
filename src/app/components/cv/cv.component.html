@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="cvContainer" (mouseover)="toggleHover()" (mouseout)="toggleHover()">
+    <a href="../../../assets/cv/andre_eng_cv_v2.pdf" target="_blank">
+      <span class="text" [style.display]="isHovered ? 'none' : 'inline-block'">View my full Curriculum Vitae.</span>
+      <img class="icon" src="../../../assets/img/download.png" alt="Download Curriculum Vitae"
+        [style.display]="isHovered ? 'inline-block' : 'none'" />
+    </a>
+  </div>
+</div>

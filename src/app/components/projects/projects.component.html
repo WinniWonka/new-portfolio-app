@@ -1,0 +1,156 @@
+<div class="container">
+  <div class="projectContainer">
+    <h2 class="heading">
+      <span class="headingMain" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true">Projects</span>
+      <span class="headingSub" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true">
+        Here you will find some of the personal projects on that i
+        worked with their source code and live link.
+      </span>
+    </h2>
+
+    <app-project-items Responsive>
+      <img src="../../../assets/projects/movieApp.jpg" alt="Software Screenshot" class="projectsRowImg"
+        loading="lazy" />
+      <h3 class="projectsRowContentTitle" data-aos="fade-down-left" data-aos-delay="120" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true">
+        Cinema Premier App
+      </h3>
+      <p class="projectsRowContentDesc" data-aos="fade-left" data-aos-delay="150" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true" style="text-align: justify;">
+        <strong>Cinema Premier</strong> is a mobile application developed as part of my college project for a Mobile
+        Programming course.
+        The app is designed to enhance the movie-going experience by providing users with an intuitive platform to
+        explore and book tickets for the latest films. It features a clean, user-friendly interface that allows users to
+        browse movie listings, view trailers, check showtimes, and select seats at their favorite theaters.
+      </p>
+      <div class="tools" data-aos="zoom-in-left" data-aos-delay="190" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true">
+        <div class="toolsName" *ngFor="let tools of cinemaAppProject">
+          {{ tools.name | uppercase }}
+        </div>
+      </div>
+      <button mat-raised-button class="livBtn" (click)="projectCinemaApp()">
+        Source Code Link
+      </button>
+    </app-project-items>
+
+    <app-project-items Responsive>
+      <img src="../../../assets/projects/marketplace.png" alt="Software Screenshot" class="projectsRowImg"
+        loading="lazy" />
+      <h3 class="projectsRowContentTitle" data-aos="fade-down-left" data-aos-delay="120" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true">
+        Daestro Cloth
+      </h3>
+      <p class="projectsRowContentDesc" data-aos="fade-left" data-aos-delay="150" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true" style="text-align: justify;">
+        The Marketplace named <strong>Daestro Cloth</strong> project is a college assignment designed to create a
+        user-friendly buying and selling platform.
+        This application allows users to register, browse products, and make transactions with ease.
+      </p>
+      <div class="tools" data-aos="zoom-in-left" data-aos-delay="190" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true">
+        <div class="toolsName" *ngFor="let tools of daestroClothProject">
+          {{ tools.name | uppercase }}
+        </div>
+      </div>
+      <button mat-raised-button class="livBtn" (click)="projectDaestroCloth()">
+        Source Code Link
+      </button>
+    </app-project-items>
+
+    <app-project-items Responsive>
+      <img src="../../../assets/projects/pokedex.jpg" alt="Software Screenshot" class="projectsRowImg" loading="lazy" />
+      <h3 class="projectsRowContentTitle" data-aos="fade-down-left" data-aos-delay="120" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true">
+        Pokédex App
+      </h3>
+      <p class="projectsRowContentDesc" data-aos="fade-left" data-aos-delay="150" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true" style="text-align: justify;">
+        The <strong>Pokédex App</strong> project is a college assignment aimed at creating a dynamic application that
+        allows users to explore
+        a collection of Pokémon. This interactive platform provides detailed information about various Pokémon,
+        including their types, abilities, and stats.
+      </p>
+      <div class="tools" data-aos="zoom-in-left" data-aos-delay="190" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true">
+        <div class="toolsName" *ngFor="let tools of pokedexAppProject">
+          {{ tools.name | uppercase }}
+        </div>
+      </div>
+      <button mat-raised-button class="livBtn" (click)="projectPokedexApp()">
+        Source Code Link
+      </button>
+    </app-project-items>
+
+    <app-project-items Responsive>
+      <img src="../../../assets/projects/mern.png" alt="Software Screenshot" class="projectsRowImg" loading="lazy" />
+      <h3 class="projectsRowContentTitle" data-aos="fade-down-left" data-aos-delay="120" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true">
+        MERN
+      </h3>
+      <p class="projectsRowContentDesc" data-aos="fade-left" data-aos-delay="150" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true" style="text-align: justify;">
+        Simple application <strong>MERN</strong>. <strong>MERN</strong> stands for MongoDB, Express, React, Node, after
+        the four key technologies that
+        make up the stack. I created this for learning and self development.
+      </p>
+      <div class="tools" data-aos="zoom-in-left" data-aos-delay="190" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true">
+        <div class="toolsName" *ngFor="let tools of mernProject">
+          {{ tools.name | uppercase }}
+        </div>
+      </div>
+      <button mat-raised-button class="livBtn" (click)="projectMern()">
+        Source Code Link
+      </button>
+    </app-project-items>
+
+    <app-project-items Responsive>
+      <img src="../../../assets/projects/RFM_Skripsi.png" alt="Software Screenshot" class="projectsRowImg"
+        loading="lazy" />
+      <h3 class="projectsRowContentTitle" data-aos="fade-down-left" data-aos-delay="120" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true">
+        RFM (Bachelor's Thesis)
+      </h3>
+      <p class="projectsRowContentDesc" data-aos="fade-left" data-aos-delay="150" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true" style="text-align: justify;">
+        An application for grouping customers based on <strong>RFM</strong> and used for my final project in college.
+      </p>
+      <div class="tools" data-aos="zoom-in-left" data-aos-delay="190" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true">
+        <div class="toolsName" *ngFor="let tools of rfmProject">
+          {{ tools.name | uppercase }}
+        </div>
+      </div>
+      <button mat-raised-button class="livBtn" (click)="projectRfm()">
+        Source Code Link
+      </button>
+    </app-project-items>
+
+    <app-project-items Responsive>
+      <img src="../../../assets/projects/CinemaProjLaravel.png" alt="Software Screenshot" class="projectsRowImg"
+        loading="lazy" />
+      <h3 class="projectsRowContentTitle" data-aos="fade-down-left" data-aos-delay="120" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true">
+        Cinema Website
+      </h3>
+      <p class="projectsRowContentDesc" data-aos="fade-left" data-aos-delay="150" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true" style="text-align: justify;">
+        <strong>Cinema</strong> is a dynamic and immersive cinema movie project i've ever crafted using the powerful
+        Laravel framework.
+      </p>
+      <div class="tools" data-aos="zoom-in-left" data-aos-delay="190" data-aos-duration="500"
+        data-aos-easing="ease forwards" data-aos-offset="100" data-aos-once="true">
+        <div class="toolsName" *ngFor="let tools of cinemaWebProject">
+          {{ tools.name | uppercase }}
+        </div>
+      </div>
+      <button mat-raised-button class="livBtn" (click)="projectCinemaWeb()">
+        Source Code Link
+      </button>
+    </app-project-items>
+
+  </div>
+</div>
