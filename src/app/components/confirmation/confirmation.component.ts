@@ -8,9 +8,10 @@ import { Component } from '@angular/core';
 })
 export class ConfirmationComponent {
 
-  constructor(private location: Location) {}
+  constructor(private location: Location) { }
 
   goBack(): void {
     this.location.back();
+    window.location.hash = '#home';
   }
 }
